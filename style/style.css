@@ -1,0 +1,111 @@
+body{
+	
+	background-image:url("../image/background.jpg");
+	background-repeat: repeat, no-repeat;
+	margin:auto;
+	padding:auto;
+}
+#main
+{
+	width: 1200px;
+	height:1600px;
+	margin:auto;
+	padding:auto;
+	background-color: rgba(106,090,205, 0.5);
+	border: 2px solid purple;
+}
+#nav
+{
+
+	padding:0px;
+	bottom:0px;
+	width: 1200px;
+	height:40px;
+}
+
+#nav ul {
+    list-style-type: none;
+    top:-20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4B0082;
+}
+
+#nav li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+#nav li:last-child {
+    border-right: none;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+#nav .active {
+    background-color: #800080;
+}
+
+#content img
+{
+	margin:auto;
+	padding-top:5px;
+	border-bottom: 4px solid purple;
+
+}
+#quest 
+{
+	width:1100px;
+	height:800px;
+	margin:auto;
+	background-color: rgba(106,090,205, 0.8);
+	font-color:white;
+	padding:10px;
+
+}
+#quest label
+{
+	color:white;
+	font: 18px solid white;
+
+
+}
+
+#quest h1
+{
+	color:white;
+	background-color:#4B0082;
+}
+
+#quest input {
+	margin-left: 400px;
+	border: 1px solid black;
+	height: 40px;
+	width:120px;
+}
+#quest input:hover
+{
+	background-color: rgba(208,166,72, 0.6);;
+}
+#content h1 {
+	text-align:center;
+
+}
+
+#answer {
+
+color:white;
+	background-color:#4B0082;
+	height:120px;	
+}
